@@ -1,3 +1,8 @@
+.DS_Store
+
+*.mtx
+*.csv
+
 
 # Created by https://www.gitignore.io/api/c++,text,clion,python,images,pycharm,visualstudio
 
