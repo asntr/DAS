@@ -1,0 +1,12 @@
+solutions:
+  - find_collision_one
+  - find_collision_multi
+
+gtests: test_solution
+benchmarks: bench_solution
+
+allow_change:
+  - find_collision.cpp
+
+compare_to: find_collision_multi
+scorer: scorer.py

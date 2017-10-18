@@ -1,0 +1,9 @@
+solutions:
+  - read_pref
+  - write_pref
+
+gtests: test_rwlock
+benchmarks: bench_rwlock
+
+allow_change:
+  - rw_lock.h

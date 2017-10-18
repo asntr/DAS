@@ -1,0 +1,11 @@
+solutions:
+  - lock_array
+
+gtests: test_hash_map
+benchmarks: bench_hash_map
+
+allow_change:
+  - concurrent_hash_map.h
+
+compare_to: lock_array
+scorer: scorer.py

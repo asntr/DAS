@@ -1,0 +1,10 @@
+solutions:
+  - slow
+  - strstr
+#  - broken
+
+gtests: test_string
+benchmarks: bench_string
+
+allow_change:
+  - string_util.cpp

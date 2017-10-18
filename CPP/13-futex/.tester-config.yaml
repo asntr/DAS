@@ -1,0 +1,18 @@
+solutions:
+  - ok
+
+gtests: test_futex
+benchmarks: bench_futex
+
+allow_change:
+  - mutex.h
+
+disable_sanitizers: True
+
+forbidden_regexp:
+  - 'std::mutex'
+  - '#include\s*<mutex>'
+  - 'std::atomic'
+  - '#include\s*<atomic>'
+
+compare_to: ok

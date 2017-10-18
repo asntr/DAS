@@ -1,0 +1,16 @@
+solutions:
+  - ok
+
+gtests: test_spin_lock
+benchmarks: bench_spin_lock
+
+allow_change:
+  - spin_lock.h
+
+disable_sanitizers: True
+  
+forbidden_regexp:
+  - 'std::mutex'
+  - '#include\s*<mutex>'
+  
+compare_to: ok

@@ -1,0 +1,11 @@
+builds:
+  - release
+  - asan
+  - tsan
+
+solutions:
+  - with_index
+
+gtests:
+  - release/test_psnappy
+  - asan/test_psnappy

@@ -1,0 +1,8 @@
+solutions:
+  - simple
+
+gtests: test_reduce
+benchmarks: bench_reduce
+
+allow_change:
+  - reduce.h

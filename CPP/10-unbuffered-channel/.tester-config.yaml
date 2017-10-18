@@ -1,0 +1,8 @@
+solutions:
+  - ok
+
+gtests: test_unbuffered_channel
+benchmarks: bench_unbuffered_channel
+
+allow_change:
+  - unbuffered_channel.h

@@ -1,0 +1,9 @@
+solutions:
+  - simple
+# - baseline
+
+gtests: test_isprime
+benchmarks: bench_isprime
+
+allow_change:
+  - is_prime.cpp

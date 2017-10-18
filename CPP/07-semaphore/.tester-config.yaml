@@ -1,0 +1,7 @@
+solutions:
+  - wake_all
+
+gtests: test_semaphore
+
+allow_change:
+  - semaphore.h

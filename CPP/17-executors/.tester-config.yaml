@@ -1,0 +1,13 @@
+solutions:
+  - ok
+
+gtests: test_executors
+benchmarks: bench_executors
+
+allow_change:
+  - executors.h
+  - executors.cpp
+  - test.cpp
+  - run.cpp
+
+compare_to: ok
